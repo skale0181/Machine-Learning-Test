@@ -124,6 +124,7 @@ export const LandingPage = ()=>{
         {/* search and add btn */}
         <Stack direction="row" justifyContent="space-between" alignItems="center" spacing={2} sx={{ padding:"20px 40px 20px 40px"}}>
                 <TextField
+                placeholder="Search"
                 onChange={(e)=>{
                     searchTasks(e.target.value)
                 }}
